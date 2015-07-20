@@ -1,0 +1,5 @@
+pages\LoginPage.class
+utils\ScreenshotOnFailure.class
+pages\PageBase.class
+templates\TestTemplate.class
+pages\PerformanceTestPage.class

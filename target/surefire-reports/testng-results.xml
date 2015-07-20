@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Load testing page title: Load Testing]]>
+    </line>
+    <line>
+      <![CDATA[Load testing page title: Load Testing]]>
+    </line>
+  </reporter-output>
+  <suite name="Firefox-Tests" duration-ms="31585" started-at="2015-07-19T01:53:13Z" finished-at="2015-07-19T01:53:45Z">
+    <groups>
+    </groups>
+    <test name="Test I" duration-ms="20065" started-at="2015-07-19T01:53:13Z" finished-at="2015-07-19T01:53:33Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@5c244f19]" name="beforeTest" is-config="true" duration-ms="19573" started-at="2015-07-18T18:53:13Z" finished-at="2015-07-18T18:53:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[stage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="isUserLoggedIn()[pri:0, instance:tests.LoginTest@5c244f19]" name="isUserLoggedIn" duration-ms="44" started-at="2015-07-18T18:53:33Z" finished-at="2015-07-18T18:53:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Load testing page title: Load Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isUserLoggedIn -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.LoginTest@5c244f19]" name="afterSuite" is-config="true" duration-ms="438" started-at="2015-07-18T18:53:33Z" finished-at="2015-07-18T18:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Test I -->
+    <test name="Test II" duration-ms="31585" started-at="2015-07-19T01:53:13Z" finished-at="2015-07-19T01:53:45Z">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="prepareSuiteForTesting()[pri:0, instance:tests.LoginTest@2b158f20]" name="prepareSuiteForTesting" is-config="true" duration-ms="18" started-at="2015-07-18T18:53:13Z" finished-at="2015-07-18T18:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareSuiteForTesting -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@2b158f20]" name="beforeTest" is-config="true" duration-ms="31182" started-at="2015-07-18T18:53:13Z" finished-at="2015-07-18T18:53:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[stage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="isUserLoggedIn()[pri:0, instance:tests.LoginTest@2b158f20]" name="isUserLoggedIn" duration-ms="35" started-at="2015-07-18T18:53:45Z" finished-at="2015-07-18T18:53:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Load testing page title: Load Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- isUserLoggedIn -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.LoginTest@2b158f20]" name="afterSuite" is-config="true" duration-ms="362" started-at="2015-07-18T18:53:45Z" finished-at="2015-07-18T18:53:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Test II -->
+  </suite> <!-- Firefox-Tests -->
+</testng-results>
